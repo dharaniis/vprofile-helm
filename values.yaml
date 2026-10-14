@@ -34,6 +34,7 @@ ingress:
   enabled: true
   host: vprofile.dharaniis.in
   servicePort: 8080
+  certificateArn: arn:aws:acm:us-east-1:112707718358:certificate/3348e242-e6bc-40a3-8cd8-bd6431f2428d
 secrets:
   dbPassword: vprodbpass
   rmqPassword: guest
